@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B30EDB134DFE650083B14E /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 18B30EDA134DFE650083B14E /* wood.png */; };
 		3201088596B4756681693705 /* libThree20UICommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3201088596B4756681693704 /* libThree20UICommon.a */; };
 		320A2827FEC940B25BC42C65 /* libThree20Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A2827FEC940B25BC42C64 /* libThree20Core.a */; };
 		320A5A189C235877202780D5 /* libThree20Network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320A5A189C235877202780D4 /* libThree20Network.a */; };
@@ -200,6 +201,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18B30EDA134DFE650083B14E /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wood.png; path = ../wood.png; sourceTree = "<group>"; };
 		3201088596B4756681693700 /* Three20UICommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UICommon.xcodeproj; path = ../../three20/src/Three20UICommon/Three20UICommon.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320A2827FEC940B25BC42C60 /* Three20Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Core.xcodeproj; path = ../../three20/src/Three20Core/Three20Core.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320A5A189C235877202780D0 /* Three20Network.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Network.xcodeproj; path = ../../three20/src/Three20Network/Three20Network.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -273,6 +275,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B30EDC134DFEE90083B14E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				18B30EDA134DFE650083B14E /* wood.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		3201088596B4756681693703 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -391,6 +401,7 @@
 		A89C7B0C134DB3DB002E870D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18B30EDC134DFEE90083B14E /* images */,
 				320B6C86F11D9990244A9730 /* Three20.bundle */,
 				A89C7B0D134DB3DB002E870D /* App1-Info.plist */,
 				A89C7B0E134DB3DB002E870D /* InfoPlist.strings */,
@@ -654,6 +665,7 @@
 				A89C7B27134DB3DB002E870D /* MainWindow_iPad.xib in Resources */,
 				A886CF92134DBF6200CEA4EA /* RootViewController_iPhone.xib in Resources */,
 				A82B912E134DCA77002E6B67 /* README in Resources */,
+				18B30EDB134DFE650083B14E /* wood.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
