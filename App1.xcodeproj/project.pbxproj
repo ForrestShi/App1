@@ -16,6 +16,7 @@
 		320CC833B8AF0ACFD35E6225 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320CC833B8AF0ACFD35E6224 /* libThree20Style.a */; };
 		320D7DCCE32703ACAB9A45E5 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320D7DCCE32703ACAB9A45E4 /* libThree20.a */; };
 		320F2C48872C2E2C4DF86205 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320F2C48872C2E2C4DF86204 /* libThree20UI.a */; };
+		A82B912E134DCA77002E6B67 /* README in Resources */ = {isa = PBXBuildFile; fileRef = A82B912D134DCA77002E6B67 /* README */; };
 		A886CF90134DBF6200CEA4EA /* RootViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A886CF8E134DBF6200CEA4EA /* RootViewController_iPhone.m */; };
 		A886CF91134DBF6200CEA4EA /* RootViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = A886CF8E134DBF6200CEA4EA /* RootViewController_iPhone.m */; };
 		A886CF92134DBF6200CEA4EA /* RootViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A886CF8F134DBF6200CEA4EA /* RootViewController_iPhone.xib */; };
@@ -39,7 +40,6 @@
 		A89C7B39134DB3DB002E870D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A89C7B37134DB3DB002E870D /* InfoPlist.strings */; };
 		A89C7B3C134DB3DB002E870D /* App1Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = A89C7B3B134DB3DB002E870D /* App1Tests.h */; };
 		A89C7B3E134DB3DB002E870D /* App1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A89C7B3D134DB3DB002E870D /* App1Tests.m */; };
-		A89C7B48134DB744002E870D /* README in Resources */ = {isa = PBXBuildFile; fileRef = A89C7B47134DB744002E870D /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -209,6 +209,7 @@
 		320CC833B8AF0ACFD35E6220 /* Three20Style.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Style.xcodeproj; path = ../../three20/src/Three20Style/Three20Style.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320D7DCCE32703ACAB9A45E0 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../../three20/src/Three20/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
 		320F2C48872C2E2C4DF86200 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = ../../three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
+		A82B912D134DCA77002E6B67 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		A886CF8D134DBF6200CEA4EA /* RootViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController_iPhone.h; sourceTree = "<group>"; };
 		A886CF8E134DBF6200CEA4EA /* RootViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController_iPhone.m; sourceTree = "<group>"; };
 		A886CF8F134DBF6200CEA4EA /* RootViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController_iPhone.xib; sourceTree = "<group>"; };
@@ -236,7 +237,6 @@
 		A89C7B3A134DB3DB002E870D /* App1Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App1Tests-Prefix.pch"; sourceTree = "<group>"; };
 		A89C7B3B134DB3DB002E870D /* App1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = App1Tests.h; sourceTree = "<group>"; };
 		A89C7B3D134DB3DB002E870D /* App1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = App1Tests.m; sourceTree = "<group>"; };
-		A89C7B47134DB744002E870D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -339,6 +339,7 @@
 		A89C7AF4134DB3DB002E870D = {
 			isa = PBXGroup;
 			children = (
+				A82B912D134DCA77002E6B67 /* README */,
 				A89C7B0B134DB3DB002E870D /* App1 */,
 				A89C7B34134DB3DB002E870D /* App1Tests */,
 				A89C7B02134DB3DB002E870D /* Frameworks */,
@@ -377,7 +378,6 @@
 		A89C7B0B134DB3DB002E870D /* App1 */ = {
 			isa = PBXGroup;
 			children = (
-				A89C7B47134DB744002E870D /* README */,
 				A89C7B14134DB3DB002E870D /* App1AppDelegate.h */,
 				A89C7B15134DB3DB002E870D /* App1AppDelegate.m */,
 				A89C7B17134DB3DB002E870D /* App1.xcdatamodeld */,
@@ -652,8 +652,8 @@
 				A89C7B10134DB3DB002E870D /* InfoPlist.strings in Resources */,
 				A89C7B20134DB3DB002E870D /* MainWindow_iPhone.xib in Resources */,
 				A89C7B27134DB3DB002E870D /* MainWindow_iPad.xib in Resources */,
-				A89C7B48134DB744002E870D /* README in Resources */,
 				A886CF92134DBF6200CEA4EA /* RootViewController_iPhone.xib in Resources */,
+				A82B912E134DCA77002E6B67 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
